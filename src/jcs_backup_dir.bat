@@ -50,11 +50,11 @@ REM SOURCE(jenchieh): http://www.microsoft.com/resources/documentation/windows/x
 xcopy /e %CURRENT_PATH% %BACK_UP_PATH%
 
 echo Done backing up the file. 
-echo Do you want to open the backup file? (y/n): 
-
-set /p OPEN_TARGET_DIR=
 
 :open_target_dir_ask
+echo Do you want to open the backup file? (y/n): 
+set /p OPEN_TARGET_DIR=
+
 if /i "%OPEN_TARGET_DIR%"=="y" goto yes_open_target_dir
 if /i "%OPEN_TARGET_DIR%"=="n" goto end
 echo Incorrect input & goto open_target_dir_ask
