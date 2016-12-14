@@ -8,4 +8,3 @@ $Notice: See LICENSE.txt for modification and distribution information
 
 
 * Task Killer
-* Zipping
