@@ -19,7 +19,7 @@ set TARGET_DIR=%CD%
 
 echo Start compressing the files...
 
-tar -zcvf %PROJECT_NAME%.tar.gz %PROJECT_NAME%
+tar -zcvf "%PROJECT_NAME%.tar.gz" "%PROJECT_NAME%"
 
 echo Done compressing the files.
 
