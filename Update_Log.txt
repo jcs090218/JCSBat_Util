@@ -12,4 +12,4 @@ $Notice: See LICENSE.txt for modification and distribution information
 
 2016-12-12
 * jcs_backup_dir implemented. (JCSBat_Util)
-* Setup the project
+* Setup the project. (JCSBat_Util)
