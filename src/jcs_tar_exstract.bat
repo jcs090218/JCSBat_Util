@@ -14,7 +14,7 @@ set /p EXTRACT_FILENAME=
 
 if /i "%EXTRACT_FILENAME%"=="n" goto end
 
-tar -zxvf %EXTRACT_FILENAME%.tar.gz
+tar -zxvf "%EXTRACT_FILENAME%.tar.gz"
 
 REM ------------ end block --------------
 :end 
