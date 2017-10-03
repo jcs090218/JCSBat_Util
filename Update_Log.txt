@@ -7,6 +7,9 @@ $Notice: See LICENSE.txt for modification and distribution information
 ========================================================================
 
 
+2017-10-03
+* Add open dir reverse which mean the local system drive. (JCSBat_Util)
+
 2017-09-23
 * Add open todo file in emacs. (JCSBat_Util)
 * Add open todo file in vim. (JCSBat_Util)
