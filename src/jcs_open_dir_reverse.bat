@@ -1,19 +1,21 @@
 @echo off
 :: ========================================================================
-:: $File: jcs_open_dir.bat $
-:: $Date: 2016-12-31 04:56:17 $
+:: $File: jcs_open_dir_reverse.bat $
+:: $Date: 2017-10-03 12:22:50 $
 :: $Revision: $
 :: $Creator: Jen-Chieh Shen $
 :: $Notice: See LICENSE.txt for modification and distribution information
-::                    Copyright (c) 2016 by Shen, Jen-Chieh $
+::                    Copyright (c) 2017 by Shen, Jen-Chieh $
 :: ========================================================================
+
 
 
 :: ------------------------------------------------------------------------
 :: How to use this?
 :: ------------------------------------------------------------------------
 :: open the backup directory depends on the hard drive applied.
-set BACK_UP_DRIVE=G:\
+:: C drive is the default windows's OS system drive.
+set BACK_UP_DRIVE=C:\
 :: ------------------------------------------------------------------------
 
 set CURRENT_PATH=%CD%
