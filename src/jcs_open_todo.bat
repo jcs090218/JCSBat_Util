@@ -12,10 +12,13 @@
 :: Open the todo file.
 :: ------------------------------------------------------------------------
 :: Set the todo file path here..
-set TODO_FILE_PATH=
+set TODO_FILE_PATH=C:\TODO_JenChieh\Daily_TODO.txt
 ::------------------------------------------------------------------------
 
+:: First open in `vim'.
+vim "%TODO_FILE_PATH%"
 
-notepad "%TODO_FILE_PATH%"
+:: If vim not install, use `notepad' instead.
+if errorlevel 1 notepad "%TODO_FILE_PATH%"
 
 exit /b
