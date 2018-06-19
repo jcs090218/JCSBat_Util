@@ -9,6 +9,7 @@ $Notice: See LICENSE.txt for modification and distribution information
 
 2018-06-19
 * Add timestamp module. (JCSBat_Util)
+* Use jenchieh own path setting record. (JCSBat_Util)
 
 2018-06-18
 * Use `vim' as default editor instead of notepad in 'jcs_open_todo' 
