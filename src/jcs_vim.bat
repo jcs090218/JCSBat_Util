@@ -11,13 +11,13 @@
 
 :: DESCRIPTION(jenchieh): Open vim with your own '_vimrc' file.
 
-set VIMRC_PATH=
+set VIMRC_PATH=C:\Program Files (x86)\Vim
 
-set DRIVE_LETTER=
-set USER_NAME=
+set DRIVE_LETTER=C
+set USER_NAME=JenChieh
 
 :: Run Vim with set the %HOME% variables.
 set HOME=%DRIVE_LETTER%:\Users\%USER_NAME%
 
 :: Run vim.
-%VIMRC_PATH%\vim80\vim.exe
+"%VIMRC_PATH%\vim80\vim.exe"
