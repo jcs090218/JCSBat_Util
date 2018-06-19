@@ -12,7 +12,7 @@
 :: Open the todo file in Vim.
 :: ------------------------------------------------------------------------
 :: Set the todo file path here..
-set TODO_FILE_PATH=
+set TODO_FILE_PATH=C:\TODO_JenChieh\Daily_TODO.txt
 ::------------------------------------------------------------------------
 
 
