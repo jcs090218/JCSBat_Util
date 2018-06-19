@@ -1,6 +1,6 @@
 @echo off
 :: ========================================================================
-:: $File: jcs_echo_timestamp.bat $
+:: $File: jcs_echo_timestamps.bat $
 :: $Date: 2018-06-19 17:35:51 $
 :: $Revision: $
 :: $Creator: Jen-Chieh Shen $
