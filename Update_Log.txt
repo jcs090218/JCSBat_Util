@@ -7,6 +7,9 @@ $Notice: See LICENSE.txt for modification and distribution information
 ========================================================================
 
 
+2018-06-20
+* Add default todo file path for jenchieh own use. (JCSBat_Util)
+
 2018-06-19
 * Add timestamp module. (JCSBat_Util)
 * Use jenchieh own path setting record. (JCSBat_Util)
