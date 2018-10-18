@@ -9,7 +9,12 @@
 :: ========================================================================
 
 
+:: DESCRIPTION(jenchieh): open the two backup directories.
+
+:: Open the first backup directory.
 start jcs_open_bk G
+
+:: Open the second backup directory.
 start jcs_open_bk S
 
 exit /b
