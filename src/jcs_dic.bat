@@ -9,6 +9,9 @@
 :: ========================================================================
 
 
+:: DESCRIPTION(jenchieh): Open dictionary in the browser by passing the word
+:: you want to search.
+
 SET word=%1
 
 if [%1]==[] ( goto prompt
