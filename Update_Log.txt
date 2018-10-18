@@ -7,6 +7,9 @@
 # ========================================================================
 
 
+2018-10-18
+* Implement jcs_dic script for dictionary util script. (JCSBat_Util)
+
 2018-06-25
 * Add open backup module/script. (JCSBat_Util)
 * Use jcs_open_bk instead of the same/duplicate code. (JCSBat_Util)
