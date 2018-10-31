@@ -7,8 +7,11 @@
 # ========================================================================
 
 
+2018-10-31
+* Implements jcs_trans, util script for translating the word. (JCSBat_Util)
+
 2018-10-18
-* Implement jcs_dic script for dictionary util script. (JCSBat_Util)
+* Implements jcs_dic, script for dictionary util script. (JCSBat_Util)
 
 2018-06-25
 * Add open backup module/script. (JCSBat_Util)
