@@ -10,7 +10,7 @@
 
 
 :: DESCRIPTION(jenchieh): Open dictionary in the browser by passing the word
-:: you want to search.
+:: you want to search for definition.
 
 SET word=%1
 
@@ -22,7 +22,7 @@ if [%1]==[] ( goto prompt
 :prompt
 
 echo.
-echo   ** Dictionary Usage **
+echo   ** Dictionary Usage - (Definition) **
 echo.
 echo   Type the word you want to search in dictionary.
 echo.
