@@ -26,7 +26,7 @@ echo   ** Dictionary Usage - (Synonyms) **
 echo.
 echo   Type the word you want to search in dictionary.
 echo.
-echo      jcs_dic { $word }
+echo      jcs_syn { $word }
 echo.
 echo.
 
