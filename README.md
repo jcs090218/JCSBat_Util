@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/jcs090218/JCSBat_Util.svg?branch=master)](https://travis-ci.com/jcs090218/JCSBat_Util)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # JCSBat_Util
 
 To use these file you could either drag the file you need to what
