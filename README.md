@@ -8,7 +8,11 @@ what ever you like to place and put all the files to that directoy,
 so you can just run it everywhere(any directory) and it will still 
 work.
 
+## Todo List
+
+- [ ] Task killer
 
 ## Other OS
-* Linux Bash -> https://github.com/jcs090218/JCSSh_Util.git
-* Windows Batch -> https://github.com/jcs090218/JCSBat_Util.git
+
+* [Linux Bash](https://github.com/jcs090218/JCSSh_Util.git)
+* [Windows Batch](https://github.com/jcs090218/JCSBat_Util.git)
