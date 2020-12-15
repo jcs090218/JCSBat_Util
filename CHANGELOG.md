@@ -7,6 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### 2020-12-15
 
+* Organized project to a much standard way for contribution.
 * Fixed escape character path from open backup module.
 
 ### 2019-03-22
