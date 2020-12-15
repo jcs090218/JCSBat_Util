@@ -15,7 +15,6 @@
 set TODO_FILE_PATH=C:\TODO_JenChieh\Daily_TODO.txt
 ::------------------------------------------------------------------------
 
-
 emacs "%TODO_FILE_PATH%" -nw
 
 exit /b

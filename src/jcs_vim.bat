@@ -8,8 +8,7 @@
 ::                    Copyright (c) 2017 by Shen, Jen-Chieh $
 :: ========================================================================
 
-
-:: DESCRIPTION(jenchieh): Open vim with your own '_vimrc' file.
+:: DESCRIPTION: Open vim with your own '_vimrc' file.
 
 set VIMRC_PATH=C:\Program Files (x86)\Vim
 

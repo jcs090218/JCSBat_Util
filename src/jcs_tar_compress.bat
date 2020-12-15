@@ -1,19 +1,18 @@
 @echo off
-REM ========================================================================
-REM $File: jcs_tar_compress.bat $
-REM $Date: 2016-12-13 17:01:45 $
-REM $Revision: $
-REM $Creator: Jen-Chieh Shen $
-REM $Notice: See LICENSE.txt for modification and distribution information
-REM                    Copyright (c) 2016 by Shen, Jen-Chieh $
-REM ========================================================================
-
+:: ========================================================================
+:: $File: jcs_tar_compress.bat $
+:: $Date: 2016-12-13 17:01:45 $
+:: $Revision: $
+:: $Creator: Jen-Chieh Shen $
+:: $Notice: See LICENSE.txt for modification and distribution information
+::                    Copyright (c) 2016 by Shen, Jen-Chieh $
+:: ========================================================================
 
 for %%* in (.) do set PROJECT_NAME=%%~nx*
 
 set CURRENT_DIR=%CD%
 
-REM up one directory and set the target directory.
+:: up one directory and set the target directory.
 cd ..
 set TARGET_DIR=%CD%
 
@@ -38,7 +37,6 @@ echo Incorrect input & goto open_target_dir_ask
 :yes_open_target_dir
 explorer %TARGET_DIR%
 
-
-REM ------------ end block --------------
-:end 
+:: ------------ end block --------------
+:end
 exit /b     REM end the script without closing the terminal process.

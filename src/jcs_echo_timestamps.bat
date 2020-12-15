@@ -8,7 +8,6 @@
 ::                   Copyright © 2018 by Shen, Jen-Chieh $
 :: ========================================================================
 
-
 SET HOUR=%time:~0,2%
 
 SET year=%date:~-4%
@@ -27,7 +26,6 @@ SET dtStamp24_ver1=%year%-%month%-%day% %hour24%:%min%:%sec%
 SET dtStamp9_ver2=%year%/%month%/%day% %hour9%:%min%:%sec%
 SET dtStamp24_ver2=%year%/%month%/%day% %hour24%:%min%:%sec%
 
-
 if "%HOUR:~0,1%" == " " (
   SET dtStamp_ver1=%dtStamp9_ver1%
   SET dtStamp_ver2=%dtStamp9_ver2%
@@ -35,7 +33,6 @@ if "%HOUR:~0,1%" == " " (
   SET dtStamp_ver1=%dtStamp24_ver1%
   SET dtStamp_ver2=%dtStamp24_ver2%
 )
-
 
 echo.
 echo Ver. 1 %dtStamp_ver1%

@@ -1,17 +1,17 @@
 @echo off
-REM ========================================================================
-REM $File: jcs_unrar_c.bat $
-REM $Date: 2016-12-14 13:15:36 $
-REM $Revision: $
-REM $Creator: Jen-Chieh Shen $
-REM $Notice: See LICENSE.txt for modification and distribution information
-REM                    Copyright (c) 2016 by Shen, Jen-Chieh $
-REM ========================================================================
+:: ========================================================================
+:: $File: jcs_unrar_c.bat $
+:: $Date: 2016-12-14 13:15:36 $
+:: $Revision: $
+:: $Creator: Jen-Chieh Shen $
+:: $Notice: See LICENSE.txt for modification and distribution information
+::                    Copyright (c) 2016 by Shen, Jen-Chieh $
+:: ========================================================================
 
-REM ============================================================
-REM errorcode401.blogspot.in
+:: ============================================================
+:: errorcode401.blogspot.in
 title Rar Password Cracker
-REM mode con: cols=47 lines=20
+:: mode con: cols=47 lines=20
 copy “C:\Program Files\WinRAR\UnRAR.exe”
 SET PSWD=0
 SET DEST=%TEMP%\%RANDOM%
@@ -22,7 +22,7 @@ echo ========================================================
 echo                   GET DETAIL
 echo ========================================================
 echo.
-SET /P FILE_NAME=Enter File Name: 
+SET /P FILE_NAME=Enter File Name:
 IF “%FILE_NAME%”==”” goto NERROR
 goto NEXT
 

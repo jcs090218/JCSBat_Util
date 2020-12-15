@@ -8,15 +8,13 @@
 ::                   Copyright © 2019 by Shen, Jen-Chieh $
 :: ========================================================================
 
-
-:: DESCRIPTION(jenchieh): Open dictionary in the browser by passing the word
+:: DESCRIPTION: Open dictionary in the browser by passing the word
 :: you want to search for synonyms.
 
 SET word=%1
 
 if [%1]==[] ( goto prompt
 ) else ( goto result )
-
 
 :: Prompt script usage.
 :prompt
@@ -32,13 +30,11 @@ echo.
 
 goto end
 
-
 :result
 
 :: `start' command will check if is a url. If is the url then run the
 :: default browser.
 start https://www.collinsdictionary.com/dictionary/english-thesaurus/%word%
-
 
 :end
 :: end of the program.

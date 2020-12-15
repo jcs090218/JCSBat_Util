@@ -15,7 +15,6 @@
 set TODO_FILE_PATH=C:\TODO_JenChieh\Daily_TODO.txt
 ::------------------------------------------------------------------------
 
-
 type "%TODO_FILE_PATH%"
 
 exit /b
