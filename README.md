@@ -1,8 +1,9 @@
-[![Build Status](https://travis-ci.com/jcs090218/JCSBat_Util.svg?branch=master)](https://travis-ci.com/jcs090218/JCSBat_Util)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Release Tag](https://img.shields.io/github/v/release/jcs090218/JCSBat_Util.svg)](https://github.com/jcs090218/JCSBat_Util/releases/latest)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # JCSBat_Util
+
+[![Build Status](https://travis-ci.com/jcs090218/JCSBat_Util.svg?branch=master)](https://travis-ci.com/jcs090218/JCSBat_Util)
 
 To use these file you could either drag the file you need to what
 ever the target directory and run it.
